@@ -1,0 +1,46 @@
+* {
+    color: var(--fontColor);
+    font-family: Arial, Helvetica, sans-serif;
+}
+head {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+body {
+    background: var(--bg);
+    font-family: monospace;
+}
+ul {
+    font-family: Helvetica;
+}
+li {
+    list-style: circle;
+}
+.list {
+    list-style: square;
+}
+.light-theme {
+    --bg: #00FF00;
+    --fontColor: #000000;
+    --btnBG: aquamarine;
+    --btnFontColor: black;
+    
+}
+.dark-theme {
+    --bg: #000000;
+    --fontColor: #00FF00;
+    --btnBG: aquamarine;
+    --btnFontColor: black;
+}
+.btn{
+    position: absolute;
+    top:20px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 10%;
+    border: 10px;
+    color:var(--btnFontColor);
+    background-color: var(--btnBG);
+}
+.btn:focus { outline-style: none;}
