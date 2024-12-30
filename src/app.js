@@ -11,7 +11,7 @@ switcher.addEventListener('click', function()
         this.textContent = 'Dark';
     }
     else {
-        this.texContent = 'Light';
+        this.textContent = 'Light';
     }
 
     console.log(className);
